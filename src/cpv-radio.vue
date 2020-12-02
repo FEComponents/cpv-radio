@@ -31,7 +31,7 @@ export default {
     ruleValidate() {
       let childProp = this.childProp
       if (childProp.required) {
-        //select 值类型判断   如数字则数字 如不符合为字符串
+        //select 值类型判断   如数字则数字 如不符合为字符串1
         let type =
           typeof childProp?.childList?.[0]?.value === 'number'
             ? 'number'
